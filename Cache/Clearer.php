@@ -1,6 +1,6 @@
 <?php
 
-namespace Rodchyn\ElephantBundle\Cache;
+namespace Rodchyn\Bundle\ElephantBundle\Cache;
 
 use Symfony\Component\HttpKernel\CacheClearer\CacheClearerInterface;
 

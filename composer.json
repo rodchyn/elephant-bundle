@@ -16,6 +16,7 @@
     "target-dir": "Rodchyn/Bundle/ElephantBundle",
 
     "require": {
-        "symfony/framework-bundle": "~2.2"
+        "symfony/framework-bundle": "~2.2",
+        "rodchyn/elephant-lang": "dev-master"
     }
 }

@@ -1,0 +1,21 @@
+{
+    "name": "rodchyn/elephant-bundle",
+    "description": "Symfony2 Elephant bundle",
+    "license": "MIT",
+    "keywords": ["syntax", "elephant", "language"],
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Yura Rodchyn",
+            "email": "rodchyn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Rodchyn\\Bundle\\ElephantBundle": "" }
+    },
+    "target-dir": "Rodchyn/Bundle/ElephantBundle",
+
+    "require": {
+        "symfony/framework-bundle": "~2.2"
+    }
+}

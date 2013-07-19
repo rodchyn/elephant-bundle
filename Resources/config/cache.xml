@@ -8,5 +8,8 @@
 	<service id="rodchyn_elephant.cache_clearer" class="Rodchyn\Bundle\ElephantBundle\Cache\Clearer">
 		<tag name="kernel.cache_clearer" />
 	</service>
+	<service id="rodchyn_elephant.cache_warmer" class="Rodchyn\Bundle\ElephantBundle\Cache\Warmer">
+		<tag name="kernel.cache_warmer" priority="0" />
+	</service>
     </services>
 </container>
